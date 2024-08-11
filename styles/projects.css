@@ -28,7 +28,7 @@
 .card *{
     text-align: center;
 }
-.card a{
+.card .websiteLink{
     background-color: var(--main-brand-color);
     width: min-content;
     padding: 15px 40px;
@@ -42,3 +42,15 @@
 .card a:hover{
     background: transparent;   
 }
+.githubLink {
+    color: var(--main-brand-color);
+    color: var(--text-color);
+    text-decoration: underline;
+    position: relative;
+}
+
+.githubLink:hover {
+    text-decoration: underline;
+    color: var(--main-brand-color);
+}
+
